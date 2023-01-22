@@ -1,0 +1,44 @@
+body {
+  background: #aaa;
+}
+h1 {
+  font-size: 40px;
+}
+section {
+  /* border: #111 solid 1px; */
+  width: 40%;
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.items {
+  width: 300px;
+  height: 150px;
+  /* margin-top: 55px; */
+  margin-left: auto;
+  margin-right: auto;
+}
+span {
+  background: black;
+  color: white;
+}
+span span {
+  color: red;
+}
+.cfbtn {
+  letter-spacing: 1.5px;
+  border: coral solid 1.4px;
+  background: #ddd;
+  color: coral;
+  font-weight: bolder;
+  font-size: large;
+  border-radius: 5%;
+}
+.cfbtn:hover {
+  background: coral;
+  color: #ddd;
+  font-weight: bold;
+  font-size: large;
+  cursor: pointer;
+}
